@@ -1,0 +1,27 @@
+{
+	"name": "SourceTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "keyval",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "val",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sourcetable"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
