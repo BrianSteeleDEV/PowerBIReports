@@ -59,7 +59,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"url": "http://example.url.com",
+					"url": "https://prod-93.eastus.logic.azure.com:443/workflows/7ca3a5e54d3542ac841b6da4fdc57367/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=3xiPKMU2bAJO9syrqpWkVl_JX5iorGRFComiwWjKr0E",
 					"method": "POST",
 					"body": {
 						"body": "message body"
